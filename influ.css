@@ -159,8 +159,11 @@ p{
     .logos{
         gap: 10px;
         padding: 10px;
-        flex-direction: column;
+        /* flex-direction: column; */
+        /* column-count: 3; */
         /* height: 10px; */
+        flex-wrap: wrap;
+        /* width: 100px; */
         
     }
     .m-title{
